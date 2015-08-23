@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Asset pipeline for jquery-indonesia-regions plugin}
   spec.description   = %q{Asset pipeline for jquery-indonesia-regions plugin}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/simudin/jquery_indonesia_regions_rails"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
