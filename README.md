@@ -21,8 +21,16 @@ Or install it yourself as:
     $ gem install jquery_indonesia_regions_rails
 
 ## Usage
+Require it in your application.js
 
-TODO: Write usage instructions here
+```js
+//= require jquery-indonesia-regions
+$(function(){
+  /* Your JavaScript goes here... */
+  (".city").jqueryIndonesiaRegions();
+  /* Your JavaScript goes here... */
+});
+```
 
 ## Development
 
@@ -32,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/jquery_indonesia_regions_rails/fork )
+1. Fork it ( https://github.com/simudin/jquery_indonesia_regions_rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
