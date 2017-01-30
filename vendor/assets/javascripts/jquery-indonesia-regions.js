@@ -8,7 +8,8 @@
       var cities = {
         'Sumedang': 'Sumedang',
         'Bandung': 'Bandung',
-        'Jakarta': 'Jakarta'
+        'Jakarta': 'Jakarta',
+        'Pangandaran': 'Pangandaran'
       };
 
       for(var city_val in cities) {
